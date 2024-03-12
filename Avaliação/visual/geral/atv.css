@@ -1,36 +1,107 @@
 
+header{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+ 
+}
+
 #um{
+    width: 100px;
     background-color: rgb(69, 150, 255);
-    margin-left: 100px;
-    margin-right: 1700PX ;
+    margin-left: 600px;
+    margin-right: 1200PX ;
+    text-align: center;
+    color: black;
 }
 #dois{
     background-color: rgb(247, 0, 255);
-    margin-left: 200px;
-    margin-right: 1600PX ;
+    margin-left: 700px;
+    margin-right: 1080PX ;
+    text-align: center;
+    color: black;
 }
 #tr{
     background-color: gold;
-    margin-left: 300px;
-    margin-right: 1500PX ;
+    margin-left: 800px;
+    margin-right: 980PX ;
+    text-align: center;
+    color: black;
 }
 #qu{
     background-color: rgb(0, 255, 21);
-    margin-left: 400px;
-    margin-right: 1400PX ;
+    margin-left: 900px;
+    margin-right: 880PX ;
+    text-align: center;
+    color: black;
 }
 #cin{
     background-color: rgb(255, 73, 73);
-    margin-left: 500px;
-    margin-right: 1300PX ;
+    margin-left: 1000px;
+    margin-right: 780PX ;
+    text-align: center;
+    color: black;
 }
 #six{
     background-color: rgb(190, 92, 255);
-    margin-left: 600px;
-    margin-right: 1200PX ;
+    margin-left: 1100px;
+    margin-right: 680PX;
+    text-align: center;
+    color: black;
 }
 #sete{
     background-color: rgb(0, 255, 179);
-    margin-left: 700px;
-    margin-right: 1100PX ;
+    margin-left: 1200px;
+    margin-right: 580PX ;
+    text-align: center;
+    color: black;
+}
+.img{
+    flex-basis: 30%;
+    text-align: center;
+}
+
+#img{
+    display: flex;
+    justify-content: space-around;
+}
+
+#img img{
+    border-radius: 5px;
+    margin: 15px;
+    display: flex;
+    height: 410px;
+    width: 510px;
+}
+
+#img2{
+    display: flex;
+    align-content: stretch;
+}
+
+.img-2 {
+    width: 380px;
+    height: 500px;
+}
+body{
+    margin: 0%;
+    background-image: url(../../visual/imagens/geral/gotham);
+    background-size: cover;
+    background-position: center;
+}
+#oooo{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(112, 116, 121);
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition-duration: 0.6s;
+    position: center;
+    display: center;
+    margin: 0px 700px; 
 }

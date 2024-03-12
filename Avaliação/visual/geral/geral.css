@@ -3,4 +3,25 @@ body{
     text-align: center;
     padding: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: dodgerblue;
+}
+
+a{
+    background-color: rgb(9, 74, 139);
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition-duration: 0.6s;
+    position: center;
+    display: center;
+    margin: 0px 700px; 
+}
+
+a:hover{
+    background-color: dodgerblue;
+    color: white;
 }
